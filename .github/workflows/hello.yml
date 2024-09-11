@@ -1,0 +1,16 @@
+name: Hello World
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run: Hello World
