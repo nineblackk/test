@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: Print Hello World
-        run: Hello World
+        run: echo "Hello World"
